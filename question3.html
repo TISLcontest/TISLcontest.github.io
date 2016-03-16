@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+	 <script type="text/javascript" src="js/jquery.js"></script>
+     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<title>Wednesday contest</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row nopadding">
+			<div  class="col-md-9">
+				<h1 class="text-left"><a href="index.html">Wednesday Contest</a></h1>
+			</div>
+				<div class="dropdown col-md-1 text-right">
+					<button  type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">See Question <span class="caret"></span></button>
+					<ul class="dropdown-menu">
+				    	<li><a href="question1.html">Question1</a></li>
+				    	<li><a href="question2.html">Question2</a></li>
+				    	<li><a href="#">Question3</a></li>
+				    	<li><a href="question4.html">Question4</a></li>
+				 	</ul>
+				</div>
+						
+			<div  style="margin-left: 2%;" class="col-md-1 text-right">
+				<button data-toggle="modal" data-target="#myModal"  type="button" class="btn btn-success">Instructions</button>
+			</div> 
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center">
+					<h3>Points:100</h3>
+				</div>
+		</div>
+		<div class="row">
+				<div class="col-md-12 text-center">
+					<h1>Sorting</h1>
+				</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 simplepadding">
+					<p><h4>Sorting</h4>
+One common task for computers is to sort data. For example, people
+might want to see all their files on a computer sorted by size. Since
+sorting is a simple problem with many different possible solutions, it is
+often used to introduce the study of algorithms.
+<h4>Insertion Sort</h4>
+These challenges will cover Insertion Sort, a simple and intuitive
+sorting algorithm. We will first start with an already sorted list.
+<h4>Insert element into sorted list</h4>
+Given a sorted list with an unsorted number e in the rightmost cell, can you write some simple code to insert e into the array so that it remains sorted?
+Print the array every time a value is shifted in the array until the array is fully sorted. The goal of this challenge is to follow the correct order of insertion sort.
+Guideline: You can copy the value of e to a variable and consider its cell "empty". Since this leaves an extra cell empty on the right, you can shift everything over until V can be inserted. This will create a duplicate of each value, but when you reach the right spot, you can replace it with e.</p>
+				</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 simplepadding">
+					<h3>Input</h3>
+					<p>There will be two lines of input:<br>
+ Size - the size of the array<br>
+ Arr - the unsorted array of integers<br><h4>Sample</h4>5<br>
+2 4 6 8 3</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 simplepadding">
+					<h3>Output</h3>
+					<p>On each line, output the entire array every time an item is shifted in it<br><h4>Sample Output</h4>
+					24688<br>
+					24668<br>
+					24468<br>
+					23468<br>
+</p>
+				</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 simplepadding">
+					<h3>Constraints</h3>
+					<p>1 &lt = Size &lt =1000<br>
+ -10000 &lt = e &lt = 10000,e &#8364 Arr</p>
+				</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 simplepadding">
+					<h3>Explanation</h3>
+					<p>3 is removed from the end of the array.<br>
+In the 1 line 8&gt3 , so 8 is shifted one cell to the right.<br>
+In the 2 line 6&gt3 , so 6 is shifted one cell to the right.<br>
+In the 3 line 4&gt3 , so 4 is shifted one cell to the right.<br>
+In the 4 line 2&lt3 , so 3 is placed at position 2 .</p>
+				</div>
+		</div>
+		<div class="row">
+				<div class="col-md-12 footla">
+					<p class="text-center">Made with love by Geekonix</p>
+				</div>
+			</div>
+	</div>	
+
+	<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Instructions</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+        	<li>Make a folder with your name on the desktop and code inside that folder only</li>
+        	<li>Write code for different question in different file</li>
+        	<li>The contest is of 45 minutes</li>
+        	<li>After you have completed a question submit it to the judge</li>
+        	<li>If the judge says yes, call any one of the staff members</li>
+        	<li>The judges decision is final. Please do not quarrel with the staff on issues related to this</li>
+        	<li>Enjoy :)</li>        
+        	</ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

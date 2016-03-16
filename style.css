@@ -1,0 +1,25 @@
+.nopadding{
+	background-color: rgba(175, 217, 238, 0.43);
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
+.mota{
+	margin-top: 4%;
+}
+.button {
+	margin-top: 4%;
+}
+.carousel-inner{
+	max-height: 400px;
+}
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+.simplepadding{
+	padding-left:20%;
+}
+.footla{
+	background-color: rgba(217, 175, 175, 0.43);
+}
